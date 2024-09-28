@@ -47,7 +47,7 @@ const features = [
         icon: GlobeIcon
     },
     {
-        title: "Customizable Meal Plans",
+        title: "Customizable Meals",
         description: "Create your personalized meal plans for different occasions",
         icon: CalendarIcon
     }
@@ -55,7 +55,7 @@ const features = [
 
 const FeaturesGrid = () => {
     return (
-        <section className="w-full bg-gray mt-8 lg:mt-16 p-4">
+        <section className="w-full bg-gray mt-8 lg:mt-16 px-4 sm:px-8 lg:px-16 py-8">
 
             <div className="flex flex-col justify-between items-start">
                 <h1 className="text-offWhite font-bold text-2xl sm:text-4xl lg:text-7xl">Create a <span

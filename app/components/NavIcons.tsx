@@ -16,10 +16,10 @@ const NavIcons = () => {
 
     return (
         <div className="flex justify-between items-center gap-2 h-full">
-            <UserButton/>
+            <UserButton />
 
             <Image src={HamIcon} alt="Hamburger Icon, click to open navigation menu"
-                   className="h-7 md:hidden cursor-pointer" onClick={handleHamClick}/>
+                   className="h-[2.5rem] w-[2.5rem] md:hidden cursor-pointer" onClick={handleHamClick}/>
         </div>
     );
 };
