@@ -17,6 +17,9 @@ const config: Config = {
         gray: "#403D39",
         dark: "#252422",
       },
+      backgroundImage: {
+        searchImg: "url('/search-bg.jpg')",
+      }
     },
   },
   plugins: [],
